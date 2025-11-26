@@ -1,0 +1,29 @@
+.ck-editor__editable_inline {
+  min-height: 150px;
+}
+body{
+  background-color: #eeeaea;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+button{
+  cursor: pointer;
+}
+
+table{
+  min-width: 100%;
+  font-size: 0.875rem;        /* text-sm */
+  text-align: left;
+  color: #374151;
+}
+td,th{
+  border: 1px solid #d1d5db; /* Tailwind’s gray-300 */
+  padding: 0.5rem 0.5rem;    /* px-2 py-2 */
+}
